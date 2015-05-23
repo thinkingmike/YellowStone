@@ -1,0 +1,66 @@
+body {
+	font-size: 1.2em;
+	color: black;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+h1 {
+	
+}
+
+form {
+	width:400px;
+	margin:0 auto;
+	
+	display:flex;
+	flex-direction:column;
+	
+	border:1px solid black;
+	background:rgb(238,238,238);
+}
+
+.label {		
+	/*border:1px solid black;*/
+	/*padding:5px 10px 5px 10px;
+	margin:5px;*/
+}
+
+.lblCountryID {
+	text-transform:uppercase;	
+	text-align:center;
+	width:20px;
+	border:1px solid black;	
+}
+
+.lblPortID {
+	text-transform:uppercase;
+	text-align:center;
+	width:30px;
+	border:1px solid black;
+}
+
+.dropdowns {
+	font-size:1.2em;
+	margin:5px;
+	padding:5px;
+}
+
+.lstCountry {
+	flex:1;
+	width:380px;
+	font-size:1.2em;
+	color: rgb(200,200,200);
+}
+
+.lstPort {
+	flex:1;
+	width:380px;
+	font-size:1.2em;
+	color: rgb(200,200,200);
+}
+
+input  {
+	flex:1;
+	margin:5px;
+	padding:5px;
+}

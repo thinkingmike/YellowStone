@@ -1,0 +1,81 @@
+body {
+	font-size: 1.2em;
+	color: black;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+
+form {
+	width:400px;
+	margin:0 auto;
+	margin-top:50px;
+	
+	display:flex;
+	flex-direction:column;
+	
+	border:1px solid #9b9b9b;
+	/*background:rgb(238,238,238);*/
+}
+
+h1 {
+	font-size:1.2em;
+	margin:10px 5px;
+	color:#9b9b9b;
+}
+
+.label {		
+	margin:5px;
+	/*padding:5px;*/
+}
+
+#lblCountryID {
+	text-transform:uppercase;	
+	text-align:center;
+	font-size:1em;
+	width:2em;
+	border:1px solid black;	
+}
+
+#lblPortID {
+	text-transform:uppercase;
+	text-align:center;
+	font-size:1em;
+	width:3em;
+	border:1px solid black;
+}
+
+.dropdowns {
+	margin:5px 0;
+}
+
+#lstCountry {
+	flex:1;	
+	font-size:1em;
+	width:calc(100% - (2 * 5px));
+	color: #06F;	/*Sky Blue*/
+	margin:10px 5px;
+}
+
+#lstPort {
+	flex:1;
+	font-size:1em;
+	width:calc(100% - (2 * 5px));
+	color: #06F;
+	margin:10px 5px;
+}
+
+input  {
+	flex:1;
+	text-transform:uppercase;
+	/*width:100%;*/
+	font-size:1em;
+	color: #06F;
+	margin:10px 5px;
+}
+
+.footer{
+	font-size:0.5em;
+	color:#9b9b9b;
+	margin:5px;
+}

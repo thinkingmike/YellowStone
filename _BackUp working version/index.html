@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset = "utf-8">
+	<title>UNLOCODES</title>
+	<link href="css/reset.css" rel="stylesheet">
+	<link href="css/form.css" rel="stylesheet">
+
+	<script src="js/main.js"></script>
+	<script src="js/ajax.js"></script>
+</head>
+
+<body>
+<h1>UNLOCODES</h1>
+
+<form class="form">
+	<div class="label">
+		<input type="text" name="lblCountryID" id="lblCountryID" class="lblCountryID" oninput="getCountryName(this)" maxlength="2" autofocus />
+		<input type="text" name="lblPortID" id="lblPortID" class="lblPortID" oninput="portSearch(this)" maxlength="3"  />
+	</div>
+
+	<input type="search" name="search" id="search"  placeholder="Free Text Search" results="5" onsearch="OnSearch (this)" />
+
+	<div class ="dropdowns">
+		<div>
+			<select name="lstCountry" id="lstCountry" class="lstCountry" onchange="getCountryID()"></select>
+		</div>
+	
+		<div>
+			<select name="lstPort" id="lstPort" class="lstPort" onchange="getPortID()"></select>
+		</div>
+	</div>
+</form>
+</body>
+</html>
